@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>TNUT - Kết Quả Thực Hành Kiểm Thử Đề 73 - Nguyễn Phương Nam</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', serif;
+            background-color: #ffffff;
+            margin: 40px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+        }
+        
+        /* ========================================================================= */
+        /* SỬA LỖI 1: KHẮC PHỤC ĐỘ TƯƠNG PHẢN THẤP (Nguyên tắc WCAG: Perceivable)     */
+        /* ------------------------------------------------------------------------- */
+        /* - Chỗ sửa cũ: Mã màu color cũ là #A0A0A0 (Xám mờ, tỷ lệ tương phản 2.3:1)   */
+        /* - Cách sửa mới: Đổi sang màu #4A4A4A (Xám tối đậm, tỷ lệ tương phản 5.1:1) */
+        /* giúp người thị lực kém, người già hoặc nhìn dưới nắng chói đọc rõ nét. */
+        /* ========================================================================= */
+        .thong-tin-khoa {
+            background-color: #F8F9FA;
+            color: #4A4A4A; /* Đã sửa: Thay đổi từ màu #A0A0A0 thành #4A4A4A để đạt chuẩn AA */
+            padding: 15px;
+            margin-bottom: 20px;
+        }
+
+        /* ========================================================================= */
+        /* SỬA LỖI 2: KHẮC PHỤC MẤT ĐƯỜNG VIỀN FOCUS (Nguyên tắc WCAG: Operable)      */
+        /* ------------------------------------------------------------------------- */
+        /* - Chỗ sửa cũ: Thuộc tính cũ là "outline: none;" (Ẩn hoàn toàn viền chọn)  */
+        /* - Cách sửa mới: Thiết lập viền xanh đậm dày 3px kèm khoảng cách đệm 2px   */
+        /* giúp người dùng điều hướng bằng bàn phím (Phím Tab) định vị rõ con trỏ.*/
+        /* ========================================================================= */
+        .menu-link:focus, .btn-submit:focus {
+            outline: 3px solid #0056b3; /* Đã sửa: Tạo viền xanh đậm dày 3px nổi bật */
+            outline-offset: 2px;        /* Đã sửa: Tạo khoảng đệm cách chữ để dễ nhìn */
+        }
+
+        .menu-nav {
+            margin-bottom: 30px;
+        }
+        .menu-link {
+            margin-right: 20px;
+            text-decoration: none;
+            color: #0056b3;
+            font-weight: bold;
+        }
+        .btn-submit {
+            background-color: #0056b3;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>KHOA CNTT - ĐẠI HỌC KỸ THUẬT CÔNG NGHIỆP THÁI NGUYÊN</h2>
+    <p><strong>Sinh viên thực hiện:</strong> Nguyễn Phương Nam - MSV: K225480106092</p>
+    
+    <div class="menu-nav">
+        <a href="#home" class="menu-link">Trang chủ</a>
+        <a href="#tintuc" class="menu-link">Tin tức tuyển sinh</a>
+        <a href="#lienhe" class="menu-link">Liên hệ khoa</a>
+    </div>
+
+    <div class="thong-tin-khoa">
+        <p>Thông báo: Hệ thống đăng ký học phần trực tuyến năm học 2026 sẽ chính thức mở vào tuần sau. Sinh viên chú ý theo dõi lịch của khóa mình.</p>
+    </div>
+
+    <h4>Hình ảnh minh họa hoạt động của Khoa:</h4>
+    
+    <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=500" 
+         width="100%" 
+         alt="Hình ảnh tập thể giảng viên và sinh viên khoa Công nghệ thông tin trường Đại học Kỹ thuật Công nghiệp Thái Nguyên đang thảo luận nghiên cứu khoa học">
+
+    <br><br>
+    <button class="btn-submit">Xác nhận nộp bài tiểu luận</button>
+</div>
+
+</body>
+</html>
