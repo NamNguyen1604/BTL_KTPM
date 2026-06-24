@@ -13,7 +13,8 @@
     * Thấu hiểu và áp dụng bộ tiêu chuẩn quốc tế **WCAG 2.1 / 2.2** với 4 nguyên tắc cốt lõi **P.O.U.R** (Perceivable - Có thể nhận thức, Operable - Có thể vận hành, Understandable - Có thể hiểu, Robust - Mạnh mẽ).
     * Thiết lập và triển khai bảng Checklist thực nghiệm đo lường chất lượng giao diện phần mềm, tối ưu hóa chi phí sửa lỗi sớm theo nguyên lý **Shift-Left Testing**.
 * **Phạm vi thực hành dự án:** * Xây dựng trang web giả lập môi trường giao diện hệ thống thông tin TNUT trên môi trường lập trình **Visual Studio Code (VS Code)**.
-    * Triển khai đo lường tự động qua công cụ **Google Lighthouse (Accessibility)** kết hợp kịch bản kiểm thử hộp đen thủ công bằng bàn phím (Keyboard Navigation) để định vị lỗi, thực hiện vá lỗi (Bug fixing) trực tiếp trong mã nguồn HTML/CSS nhằm đưa chất lượng tiếp cận đạt điểm số tuyệt đối 
+    * Triển khai đo lường tự động qua công cụ **Google Lighthouse (Accessibility)** kết hợp kịch bản kiểm thử hộp đen thủ công bằng bàn phím (Keyboard Navigation) để định vị lỗi, thực hiện vá lỗi (Bug fixing) trực tiếp trong mã nguồn HTML/CSS nhằm đưa chất lượng tiếp cận đạt điểm số tuyệt đối
+## Bài làm 
 Kiểm thử tự động:
 -Trên trình duyệt , nhấn F12 -> chọn tab Lighthouse -> tích chọn duy nhất ô Accessibility -> bấm Analyze page load. 
 <img width="570" height="512" alt="image" src="https://github.com/user-attachments/assets/6e3d3d95-c447-4da3-beb4-f5b5322d95ff" />
